@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a href="#" class="logo">Brand<span>.</span></a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text animate fade-up">
+        <h1>Create Beautiful, Responsive Websites</h1>
+        <p>Clean HTML, modern CSS, and a pinch of JavaScript—fully responsive for all screens.</p>
+        <a href="#features" class="btn cta">Get Started</a>
+      </div>
+      <div class="hero-art animate fade-in">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML Logo" class="floating">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS Logo" class="floating delay">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS Logo" class="floating delay2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features / Services -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title animate fade-up">Features</h2>
+      <p class="section-subtitle animate fade-up">Responsive layout, easy customization, and accessible UI.</p>
+      <div class="grid">
+        <article class="feature animate fade-in">
+          <img src="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" alt="Fast" class="icon">
+          <h3>Fast</h3>
+          <p>Lightweight code that loads quickly and performs smoothly.</p>
+        </article>
+        <article class="feature animate fade-in delay">
+          <img src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" alt="Responsive" class="icon">
+          <h3>Responsive</h3>
+          <p>Looks great on mobiles, tablets, and desktops with minimal effort.</p>
+        </article>
+        <article class="feature animate fade-in delay2">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Accessible" class="icon">
+          <h3>Accessible</h3>
+          <p>Semantic HTML and keyboard-friendly navigation out of the box.</p>
+        </article>
+        <article class="feature animate fade-in delay3">
+          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Customizable" class="icon">
+          <h3>Customizable</h3>
+          <p>Use CSS variables to theme colors and spacing easily.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section muted" id="about">
+    <div class="container about">
+      <div class="about-text animate fade-left">
+        <h2>About This Template</h2>
+        <p>
+          This starter includes a sticky header, hamburger menu for mobile, smooth scrolling,
+          and a simple CSS utility system. Extend it to build your portfolio or business site.
+        </p>
+        <ul>
+          <li>Sticky / shadowed navbar on scroll</li>
+          <li>Mobile drawer navigation</li>
+          <li>Smooth scroll to sections</li>
+        </ul>
+      </div>
+      <div class="about-art animate fade-right">
+        <img src="https://cdn-icons-png.flaticon.com/512/4762/4762314.png" alt="Creative illustration" class="blob-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <form class="contact animate fade-up">
+        <h3>Contact Us</h3>
+        <label>
+          Name
+          <input type="text" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Message
+          <textarea rows="4" placeholder="How can we help?"></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <div class="credits animate fade-left">
+        <a href="#top" class="back-to-top">↑ Back to top</a>
+        <p>© <span id="year"></span> Brand. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
