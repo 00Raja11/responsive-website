@@ -1,20 +1,23 @@
-# responsive-website
-A modern responsive website template built with HTML, CSS, and JavaScript.  Features include sticky navbar, mobile-friendly hamburger menu, smooth scrolling,  and animated sections. Fully customizable and ready to deploy on GitHub Pages .
 # Responsive Website 🌐
 
-A modern, fully responsive website template built with **HTML, CSS, and JavaScript**.  
-This project is designed as a starter template for portfolios, landing pages, or small business websites.
+A modern responsive website template built with **HTML, CSS & JavaScript**.  
+Live demo: https://00raja11.github.io/responsive-website/
 
----
+## Features
+- Sticky navbar with shadow on scroll
+- Mobile-friendly hamburger menu (drawer)
+- Smooth-scrolling navigation
+- Animated sections using IntersectionObserver
+- Clean CSS variables for easy theming
+- SEO meta tags and lazy-loaded images
 
-## 🚀 Features
-- ✅ Sticky navbar with shadow on scroll
-- ✅ Mobile-friendly hamburger menu
-- ✅ Smooth scrolling navigation
-- ✅ Animated sections on scroll
-- ✅ Clean CSS variables for easy theming
-- ✅ SEO friendly meta tags
-
----
+## Project structure
+index.html
+style.css 
+script.js
 
 
+## Usage
+1. Clone the repo:
+```bash
+git clone https://github.com/00Raja11/responsive-website.git
