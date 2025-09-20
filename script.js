@@ -44,3 +44,22 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.2 });
 
 document.querySelectorAll('.animate').forEach(el => observer.observe(el));
+
+/* -------------------
+   Back to Top Button
+------------------- */
+const backToTopBtn = document.querySelector(".back-to-top");
+
+// Show/hide on scroll
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopBtn.classList.add("show");
+  } else {
+    backToTopBtn.classList.remove("show");
+  }
+});
+
+// Smooth scroll to top
+backToTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
